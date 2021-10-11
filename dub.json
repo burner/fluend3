@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Nickolay Bukreyev"
+	],
+	"copyright": "Copyright © 2019, Nickolay Bukreyev",
+	"dependencies": {
+		"sumtype": "0.8.12"
+	},
+	"description": "Fluent parser and serializer.",
+	"homepage": "https://github.com/SirNickolas/fluentd",
+	"license": "MIT",
+	"name": "syntax",
+	"targetType": "library"
+}

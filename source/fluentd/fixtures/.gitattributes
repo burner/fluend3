@@ -1,0 +1,4 @@
+*.ftl eol=lf
+/reference/* linguist-vendored
+/reference/crlf.ftl eol=crlf
+/reference/cr.ftl eol=cr

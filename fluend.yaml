@@ -1,0 +1,33 @@
+Resources:
+    R: [Resource#r]
+    RF: [Resource#r, Resources#f]
+
+Resource:
+    E: [Entry#entry]
+# BB: [BlankBlock]
+#    J: [Junk#junk]
+
+Entry:
+    M: [Message#m, LineEnd]
+    #    T: [Term#t, LineEnd]
+#  C: [CommentLine]
+
+Message:
+    M: [identifier#id, equal, MessageFollow#mf ]
+
+MessageFollow:
+    #PA: [Pattern#p, Attributes#as]
+    P: [Pattern#p]
+    #A: [Attributes#as]
+
+Pattern:
+    PE: [PatternElement#pe]
+    PEF: [PatternElement#pe, Pattern#follow]
+
+PatternElement:
+    #IT: [InlineText#it]
+    IT: [identifier#it]
+#    BT: [BlockText#bt]
+# IP: [InlinePlaceable#ip]
+#   BP: [BlockPlaceable#bp]
+

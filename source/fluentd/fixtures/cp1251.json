@@ -1,0 +1,33 @@
+{
+    "type": "Resource",
+    "body": [
+        {
+            "type": "ResourceComment",
+            "content": "This file is encoded in CP1251, a single-byte Cyrillic encoding."
+        },
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "### ��� ������� � `Junk`: `ResourceComment` ����������� �� ��� �����������.\n"
+        },
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "### � ��� ������� � ��������� `Junk`.\n"
+        },
+        {
+            "type": "ResourceComment",
+            "content": "This is another comment."
+        },
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "plain-text = ������� ����.\n"
+        },
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "string-literal = {\"������� ����.\"}\n"
+        }
+    ]
+}
