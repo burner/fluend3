@@ -1,0 +1,325 @@
+{
+    "body": [
+        {
+            "content": "`maxDepth` should be set to 6 to parse this file as intended.",
+            "type": "ResourceComment"
+        },
+        {
+            "attributes": [],
+            "comment": null,
+            "id": {
+                "name": "placeables-6",
+                "type": "Identifier"
+            },
+            "type": "Message",
+            "value": {
+                "elements": [
+                    {
+                        "expression": {
+                            "expression": {
+                                "expression": {
+                                    "expression": {
+                                        "expression": {
+                                            "expression": {
+                                                "expression": {
+                                                    "type": "NumberLiteral",
+                                                    "value": "0"
+                                                },
+                                                "type": "Placeable"
+                                            },
+                                            "type": "Placeable"
+                                        },
+                                        "type": "Placeable"
+                                    },
+                                    "type": "Placeable"
+                                },
+                                "type": "Placeable"
+                            },
+                            "type": "Placeable"
+                        },
+                        "type": "Placeable"
+                    }
+                ],
+                "type": "Pattern"
+            }
+        },
+        {
+            "annotations": [],
+            "content": "placeables-7 = { {{{{{{{0}}}}}}} }\n\n",
+            "type": "Junk"
+        },
+        {
+            "attributes": [],
+            "comment": null,
+            "id": {
+                "name": "funcs-6",
+                "type": "Identifier"
+            },
+            "type": "Message",
+            "value": {
+                "elements": [
+                    {
+                        "expression": {
+                            "arguments": {
+                                "named": [],
+                                "positional": [
+                                    {
+                                        "arguments": {
+                                            "named": [],
+                                            "positional": [
+                                                {
+                                                    "arguments": {
+                                                        "named": [],
+                                                        "positional": [
+                                                            {
+                                                                "arguments": {
+                                                                    "named": [],
+                                                                    "positional": [
+                                                                        {
+                                                                            "arguments": {
+                                                                                "named": [],
+                                                                                "positional": [
+                                                                                    {
+                                                                                        "arguments": {
+                                                                                            "named": [],
+                                                                                            "positional": [],
+                                                                                            "type": "CallArguments"
+                                                                                        },
+                                                                                        "id": {
+                                                                                            "name": "F",
+                                                                                            "type": "Identifier"
+                                                                                        },
+                                                                                        "type": "FunctionReference"
+                                                                                    }
+                                                                                ],
+                                                                                "type": "CallArguments"
+                                                                            },
+                                                                            "id": {
+                                                                                "name": "F",
+                                                                                "type": "Identifier"
+                                                                            },
+                                                                            "type": "FunctionReference"
+                                                                        }
+                                                                    ],
+                                                                    "type": "CallArguments"
+                                                                },
+                                                                "id": {
+                                                                    "name": "F",
+                                                                    "type": "Identifier"
+                                                                },
+                                                                "type": "FunctionReference"
+                                                            }
+                                                        ],
+                                                        "type": "CallArguments"
+                                                    },
+                                                    "id": {
+                                                        "name": "F",
+                                                        "type": "Identifier"
+                                                    },
+                                                    "type": "FunctionReference"
+                                                }
+                                            ],
+                                            "type": "CallArguments"
+                                        },
+                                        "id": {
+                                            "name": "F",
+                                            "type": "Identifier"
+                                        },
+                                        "type": "FunctionReference"
+                                    }
+                                ],
+                                "type": "CallArguments"
+                            },
+                            "id": {
+                                "name": "F",
+                                "type": "Identifier"
+                            },
+                            "type": "FunctionReference"
+                        },
+                        "type": "Placeable"
+                    }
+                ],
+                "type": "Pattern"
+            }
+        },
+        {
+            "annotations": [],
+            "content": "funcs-7 = {F(F(F(F(F(F(F()))))))}\n\n",
+            "type": "Junk"
+        },
+        {
+            "attributes": [],
+            "comment": null,
+            "id": {
+                "name": "variants-6",
+                "type": "Identifier"
+            },
+            "type": "Message",
+            "value": {
+                "elements": [
+                    {
+                        "expression": {
+                            "selector": {
+                                "type": "NumberLiteral",
+                                "value": "0"
+                            },
+                            "type": "SelectExpression",
+                            "variants": [
+                                {
+                                    "default": true,
+                                    "key": {
+                                        "type": "NumberLiteral",
+                                        "value": "0"
+                                    },
+                                    "type": "Variant",
+                                    "value": {
+                                        "elements": [
+                                            {
+                                                "expression": {
+                                                    "selector": {
+                                                        "type": "NumberLiteral",
+                                                        "value": "0"
+                                                    },
+                                                    "type": "SelectExpression",
+                                                    "variants": [
+                                                        {
+                                                            "default": true,
+                                                            "key": {
+                                                                "type": "NumberLiteral",
+                                                                "value": "0"
+                                                            },
+                                                            "type": "Variant",
+                                                            "value": {
+                                                                "elements": [
+                                                                    {
+                                                                        "expression": {
+                                                                            "selector": {
+                                                                                "type": "NumberLiteral",
+                                                                                "value": "0"
+                                                                            },
+                                                                            "type": "SelectExpression",
+                                                                            "variants": [
+                                                                                {
+                                                                                    "default": true,
+                                                                                    "key": {
+                                                                                        "type": "NumberLiteral",
+                                                                                        "value": "0"
+                                                                                    },
+                                                                                    "type": "Variant",
+                                                                                    "value": {
+                                                                                        "elements": [
+                                                                                            {
+                                                                                                "expression": {
+                                                                                                    "selector": {
+                                                                                                        "type": "NumberLiteral",
+                                                                                                        "value": "0"
+                                                                                                    },
+                                                                                                    "type": "SelectExpression",
+                                                                                                    "variants": [
+                                                                                                        {
+                                                                                                            "default": true,
+                                                                                                            "key": {
+                                                                                                                "type": "NumberLiteral",
+                                                                                                                "value": "0"
+                                                                                                            },
+                                                                                                            "type": "Variant",
+                                                                                                            "value": {
+                                                                                                                "elements": [
+                                                                                                                    {
+                                                                                                                        "expression": {
+                                                                                                                            "selector": {
+                                                                                                                                "type": "NumberLiteral",
+                                                                                                                                "value": "0"
+                                                                                                                            },
+                                                                                                                            "type": "SelectExpression",
+                                                                                                                            "variants": [
+                                                                                                                                {
+                                                                                                                                    "default": true,
+                                                                                                                                    "key": {
+                                                                                                                                        "type": "NumberLiteral",
+                                                                                                                                        "value": "0"
+                                                                                                                                    },
+                                                                                                                                    "type": "Variant",
+                                                                                                                                    "value": {
+                                                                                                                                        "elements": [
+                                                                                                                                            {
+                                                                                                                                                "expression": {
+                                                                                                                                                    "selector": {
+                                                                                                                                                        "type": "NumberLiteral",
+                                                                                                                                                        "value": "0"
+                                                                                                                                                    },
+                                                                                                                                                    "type": "SelectExpression",
+                                                                                                                                                    "variants": [
+                                                                                                                                                        {
+                                                                                                                                                            "default": true,
+                                                                                                                                                            "key": {
+                                                                                                                                                                "type": "NumberLiteral",
+                                                                                                                                                                "value": "0"
+                                                                                                                                                            },
+                                                                                                                                                            "type": "Variant",
+                                                                                                                                                            "value": {
+                                                                                                                                                                "elements": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "type": "TextElement",
+                                                                                                                                                                        "value": "Zero"
+                                                                                                                                                                    }
+                                                                                                                                                                ],
+                                                                                                                                                                "type": "Pattern"
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    ]
+                                                                                                                                                },
+                                                                                                                                                "type": "Placeable"
+                                                                                                                                            }
+                                                                                                                                        ],
+                                                                                                                                        "type": "Pattern"
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "type": "Placeable"
+                                                                                                                    }
+                                                                                                                ],
+                                                                                                                "type": "Pattern"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                "type": "Placeable"
+                                                                                            }
+                                                                                        ],
+                                                                                        "type": "Pattern"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "type": "Placeable"
+                                                                    }
+                                                                ],
+                                                                "type": "Pattern"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "type": "Placeable"
+                                            }
+                                        ],
+                                        "type": "Pattern"
+                                    }
+                                }
+                            ]
+                        },
+                        "type": "Placeable"
+                    }
+                ],
+                "type": "Pattern"
+            }
+        },
+        {
+            "annotations": [],
+            "content": "variants-7 = {0 ->\n*[0] {0 ->\n*[0] {0 ->\n*[0] {0 ->\n*[0] {0 ->\n*[0] {0 ->\n*[0] {0 ->\n*[0] Zero\n}\n}\n}\n}\n}\n}\n}\n",
+            "type": "Junk"
+        }
+    ],
+    "type": "Resource"
+}

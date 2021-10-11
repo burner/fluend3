@@ -1,0 +1,10 @@
+{
+    "type": "Resource",
+    "body": [
+        {
+            "type": "Junk",
+            "annotations": [],
+            "content": "\uFEFF### There is a UTF-8 BOM in this file.\n\uFEFF### And another one at the start of this line.\n"
+        }
+    ]
+}
